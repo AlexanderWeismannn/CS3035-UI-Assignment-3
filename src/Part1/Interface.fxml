@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import Part1.HappyFaceDisplay?>
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" >
+
+</BorderPane>
