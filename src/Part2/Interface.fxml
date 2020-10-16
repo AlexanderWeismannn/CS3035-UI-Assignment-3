@@ -3,6 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import Part2.MyFlowPane?>
+
 <BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <center>
        <MyFlowPane prefWidth="600" prefHeight="600" />
@@ -10,9 +11,9 @@
    </center>
     <right>
         <VBox alignment="CENTER">
-            <ListView VBox.vgrow="ALWAYS" />
-            <Button >Add Face</Button>
-            <Button >Clear All</Button>
+            <ListView fx:id = "listView" VBox.vgrow="ALWAYS" />
+            <Button fx:id="addFace" >Add Face</Button>
+            <Button fx:id="clearAll">Clear All</Button>
 
         </VBox>
     </right>
